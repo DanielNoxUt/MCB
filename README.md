@@ -1,7 +1,7 @@
 ### A Powerful Way to Bridge Discord and Minecraft
 ##### Configurable, Simple, Easy
 
-__Supports:__ *BukkitAPI 1.8 - 1.19*  |  __Previous Version:__ *[MCB 0.5.5](*  | __Current Version:__ *[MCB 0.5.5]()*
+__Supports:__ *BukkitAPI 1.8 - 1.19*  |  __Previous Version:__ *[MCB 0.5.4](*  | __Current Version:__ *[MCB 0.5.5]()*
 
 ---
 ## Features
