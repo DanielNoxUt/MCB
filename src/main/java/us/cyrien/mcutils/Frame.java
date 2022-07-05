@@ -78,4 +78,9 @@ public class Frame {
     public static Object getConfig(Class clazz) {
         return ConfigurationBuilder.get(clazz);
     }
+    public static Object getConfig(Class username) {
+        return configurationBuilder.get(username);
+    }
 }
+
+
