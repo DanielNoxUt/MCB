@@ -1,11 +1,12 @@
 # How to contribute
 Note: Addapted from the Puppet Contributing Guidelines
 
-Minecordbot is an free and openly sourced project under the GNU GPLv3 or later version (see [LICENSE](https://github.com/CyR1en/Minecordbot/blob/master/LICENSE))
+MCB is an free and openly sourced project under the GNU GPLv3 or later version ())
 As such, we also welcome contributions from the community. Not all Pull Requests
 may be acceptable for inclusion (though you're free to use them in your own forks) due
 to various reason, such as vulnerabilities, build issues, or poor legibility. The cleaner your
 code, the more likely it will be included.
+
 
 ## Getting Started
 
@@ -33,8 +34,7 @@ code, the more likely it will be included.
 * Make commits of logical units.
 * Check for unnecessary white-space with `git diff --check` before committing.
 * Make sure your commit messages are in the proper format. If the commit
-  addresses an issue filed in the
-  [Minecordbot Issue Tracker](https://github.com/CyR1en/Minecordbot/issues), start
+  addresses an issue filed in the, start
   the first line of the commit with the issue number in parentheses, following a hashtag.
   
   ```
@@ -92,10 +92,3 @@ In case of a PR reversion, we will publicly announce them through the discord se
 * Changes resulting in test pipeline failures will be reverted if they cannot
   be resolved within a couple of days.
 
-## Additional Resources
-
-* [Minecordbot Code of Conduct](https://github.com/CyR1en/Minecordbot/blob/master/CODE_OF_CONDUCT.md)
-* [Bug tracker (GitHub)](https://github.com/CyR1en/Minecordbot/issues)
-* [General GitHub documentation](https://help.github.com/)
-* [GitHub pull request documentation](https://help.github.com/articles/creating-a-pull-request/)
-* Minecordbot's Official Discord ([C Y R I E N](https://discord.gg/rEK5XmV))
