@@ -3,12 +3,12 @@ plugins {
     id 'java'
     id 'application'
     id 'idea'
-    id 'com.github.johnrengelman.shadow' version '1.2.4'
+    id 'com.github.johnrengelman.shadow' version '1.19'
 }
 
-group 'us.cyrien.minecordbot'
-version '2.2.5_b5'
-mainClassName = 'us.cyrien.minecordbot.main.Minecordbot'
+group 'us.daniel7d3v.mcb'
+version '0.5.5_b5'
+mainClassName = 'us.daniel7d3v.MCB.main.MCB'
 
 sourceCompatibility = 1.8
 targetCompatibility = 1.8
@@ -65,9 +65,9 @@ dependencies {
     compileOnly 'org.bukkit:bukkit:1.12.2-R0.1-SNAPSHOT'
     compileOnly 'com.github.TechFortress:GriefPrevention:16.7.1'
     compileOnly name: 'mv'
-    compileOnly name: 'PermissionsEx-1.23.4'
+    compileOnly name: 'LuckPerms-Bukkit-5.4.30'
     compileOnly name: 'mcMMO'
-    compileOnly name: 'EssentialsX'
+    compileOnly name: 'EssentialsX-2.19.5-dev+24-a60f3c0'
     compileOnly name: 'SuperVanish'
     compileOnly name: 'VentureChat'
 }
@@ -83,12 +83,12 @@ jar {
 shadowJar {
     classifier = 'Shaded'
     dependencies {
-        exclude(dependency('org.spigotmc:spigot-api:1.12.1-R0.1-SNAPSHOT'))
+        exclude(dependency('org.spigotmc:spigot-api:1.19.1-R0.1-SNAPSHOT'))
         exclude(dependency('com.google.guava:guava:21.0'))
         exclude(dependency('com.google.code.gson:gson:2.8.0'))
-        exclude(dependency('net.md-5:bungeecord-chat:1.12-SNAPSHOT'))
+        exclude(dependency('net.md-5:bungeecord-chat:1.19-SNAPSHOT'))
         exclude(dependency('org.hamcrest:hamcrest-core:1.1'))
-        exclude(dependency('org.yaml:snakeyaml:1.18'))
+        exclude(dependency('org.yaml:snakeyaml:1.19'))
         exclude(dependency('commons-lang:commons-lang:2.6'))
         exclude(dependency('com.github.TechFortress:GriefPrevention:16.7.1'))
         exclude(dependency('rhino:js:1.7R2'))
