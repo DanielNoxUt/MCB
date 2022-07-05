@@ -2,9 +2,9 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
-      <module name="1.12-Minecordbot_main" target="1.8" />
-      <module name="Minecordbot_main" target="1.8" />
-      <module name="Minecordbot_test" target="1.8" />
+      <module name="1.19_MCB_main" target="1.19" />
+      <module name="MCB_main" target="1.19" />
+      <module name="MCB_test" target="1.19" />
     </bytecodeTargetLevel>
   </component>
 </project>
