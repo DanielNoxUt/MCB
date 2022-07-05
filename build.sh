@@ -11,7 +11,7 @@ sleep 1s
 echo "You have 5 seconds to cancel this script with CTRL+C before we start building."
 sleep 5s
 echo
-echo "Starting to build MineCordBot."
+echo "Starting to build MCB."
 sleep 1s
 echo #Start the build script
 sh gradlew.sh build
